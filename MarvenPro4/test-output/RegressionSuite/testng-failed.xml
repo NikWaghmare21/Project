@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RegressionSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="FirefoxTest(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="test.VerifyCabPage">
+        <methods>
+          <include name="launchMultipleBrowser"/>
+          <include name="verifyHoyrlyRentalTab"/>
+          <include name="clearobjects"/>
+          <include name="verifyOutstaionTab"/>
+          <include name="closeTheWindow"/>
+          <include name="openCabPage"/>
+          <include name="launchBrowser"/>
+          <include name="navigateBackToHome"/>
+        </methods>
+      </class> <!-- test.VerifyCabPage -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [RegressionSuite] -->
