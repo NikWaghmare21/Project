@@ -36,10 +36,10 @@ public class CabHomePage {
 		outStation.click();
 	}
 	
-// 	public void clickOnhourlyRentalTab(){
+	public void clickOnhourlyRentalTab(){
 		
-// 		hourlyRental.click();
-// 	}
+		hourlyRental.click();
+	}
 	
 
 }
